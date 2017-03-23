@@ -8,6 +8,5 @@ from glogin.signin import driver
 if __name__ == '__main__':
     driver=webdriver.Chrome()
     driver.get("//http:www.gmail.com")
-    driver.switch_to_alert()
     driver.close()
     
