@@ -22,8 +22,3 @@ if __name__ == '__main__':
     driver.find_element_by_xpath("//*[@id='PasswdAgain']").send_keys("ragoal222")
     driver.find_element_by_id("BirthMonth").click()
     driver.find_element_by_xpath(".//*[@id=':9']/div").click()
-    driver.find_element_by_id("BirthDay").send_keys("12")
-    driver.find_element_by_id("BirthYear").send_keys("1990")
-    driver.find_elements_by_id("Gender")
-    element =driver.find_element_by_xpath("//label/div/div[@class='goog-inline-block goog-flat-menu-button jfk-select']")
-    e1=element.click()
